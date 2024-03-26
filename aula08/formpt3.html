@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+</head>
+
+<body>
+  <h1>Formulário</h1>
+  <form action="#"></form>
+  <label for="nome">nome</label>
+  <input type="text" id="nome"> <br> <br>
+
+  <label for="email">E-mail</label>
+  <input type="email" id="email"> <br> <br>
+
+
+  <label for="listaunidade">Lista de Unidades</label>
+  <select name="listaunidade" id="lista unidade">
+    
+      <option selected disabled>Unidades</option>
+      <!-- selected disabled para deixar não clicavel -->
+      <!-- a tag hidden tambem poderá ser utilizada -->
+    <option value="santana">Santana</option>
+    <option value="santo_amaro">Santo Amaro</option>
+    <option value="itaquera">Itaquera</option>
+    <option value="diadema">Diadema</option> 
+  </select> <br> <br>
+
+  <p>Datalist</p>
+
+  <input type="text" list="unidadeIOS" autocomplete="on" placeholder="unidades">
+  <!-- autocomplete n precisa estar presente -->
+  <datalist id="unidadeIOS">
+    <option value="Santana"></option>
+    <option value="Santo Amaro"></option>
+    <option value="Itaquera"></option>
+    <option value="Diadema"></option>
+
+  </datalist>
+
+
+
+
+
+  <input type="submit" value="enviar">
+
+</body>
+
+</html>

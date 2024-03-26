@@ -1,0 +1,26 @@
+h1 {
+  color: brown;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+  background-color: dimgrey;
+
+}
+
+h2  {
+  color: rgb(218, 58, 170);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+  background-color: dimgrey;
+
+} 
+p  {
+  color: rgb(128, 49, 152);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+  background-color: dimgrey;
+
+}
+
+body {
+  background-color: dimgray;
+}
